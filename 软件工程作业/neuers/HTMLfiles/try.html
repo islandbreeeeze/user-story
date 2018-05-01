@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        ul {
+            font-weight: bold;
+            word-spacing: 50px;
+            position: fixed;
+            z-index: 5;
+            top: 25px;
+            margin: auto;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: lightskyblue;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: grey;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+
+
+        #a0{
+                position: relative;
+                top: 100px;
+
+                padding: 20px;
+                border-radius: 10px;
+                border: 10px lightskyblue;
+        }
+
+
+        #b{
+            margin: 0px;
+            width: 100%;
+            height: 100px;
+
+            background-color: lightskyblue;
+            position: fixed;
+            z-index: 2;
+        }
+
+
+
+        form{
+            margin-left: 20px;
+            position: fixed;
+            z-index: 3;
+            top: 80px;
+            color: white;
+        }
+        #n{
+            position: fixed;
+            z-index: 4;
+            left: 90%;
+            width: 100px;
+            height: 100px;
+
+        }
+        #neu{
+            position: fixed;
+            z-index: 4;
+            left: 35%;
+            top: 5%;
+        }
+        #chat{
+            vertical-align: baseline;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<form action="demo_form.php"method="get">
+     <input type="search" name="search1" placeholder="请输入关键字:"/>
+    <input type="submit" value="搜索" style="color:grey"/>
+    <input type="submit" value="搜索并发布" style="color:grey"/>
+</form>
+
+
+
+
+
+<div id="b">
+</div>
+
+<div id="neu">
+    <img src="../images/slogan2.png">
+</div>
+
+
+<div id="n">
+    <img src="../images/neuers.jpg" width="100px" height="100px">
+</div>
+
+
+<ul>
+    <li><a href="#start">起点</a></li>
+    <li><a href="#end">终点</a></li>
+    <li><a href="#time">出发时间</a></li>
+    <li><a href="#message">留言</a></li>
+    <li><a href="https://map.baidu.com/">百度地图</a> </li>
+</ul>
+<div id="a0" style="font-family:verdana;padding:20px;border-radius:10px;border:10px solid grey;">
+    <span style="color:grey;word-spacing: 30px">
+        <a style="text-decoration: none;color: black;font-weight: bold;" href="">全部</a>
+        <a style="text-decoration: none;color: black;font-weight: bold;" href="">搜索结果</a>
+        <a style="text-decoration: none;color: black;font-weight: bold;" href="">我的历史发布</a>
+        <hr>
+        <hr>
+        <img id="chat" src="../images/neuers.jpg" width="20px" style="position: relative;top: 5px">关注 <img src="../images/chat2.png"  style="position:relative;top: 5px" width="20px" alt="">聊天
+        <h3 style="color: black"><a style="color:lightskyblue" href="">李明同学</a> 工商管理学院</h3>
+        <p>东北大学南湖校区到东北大学浑南校区</p>
+        <p> 5月1日上午7点30分</p>
+        <p>急求志同道合的胖友！</p>
+        <hr>
+        <img id="chat" src="../images/neuers.jpg" width="20px" style="position: relative;top: 5px">关注 <img src="../images/chat2.png"  style="position:relative;top: 5px" width="20px" alt="">聊天
+        <h3 style="color: black"><a style="color: lightskyblue" href="">王丽丽同学</a> 计算机学院</h3>
+        <p>东北大学南湖校区到东北大学浑南校区</p>
+        <p> 5月2日上午7点30分</p>
+        <p>急求志同道合的胖友！</p>
+        <hr>
+        <img id="chat" src="../images/neuers.jpg" width="20px" style="position: relative;top: 5px">关注 <img src="../images/chat2.png"  style="position:relative;top: 5px" width="20px" alt="">聊天
+        <h3 style="color: black"><a style="color: lightskyblue" href="">张伟同学</a> 文法学院</h3>
+        <p>东北大学南湖校区到东北大学浑南校区</p>
+        <p> 5月3日上午7点30分</p>
+        <p>急求志同道合的胖友！</p>
+        <hr>
+        <img id="chat" src="../images/neuers.jpg" width="20px" style="position: relative;top: 5px">关注 <img src="../images/chat2.png"  style="position:relative;top: 5px" width="20px" alt="">聊天
+        <h3 style="color: black"><a style="color: lightskyblue" href="">小红同学</a> 建筑学院</h3>
+        <p>东北大学南湖校区到东北大学浑南校区</p>
+        <p> 5月4日上午7点30分</p>
+        <p>急求志同道合的胖友！</p>
+
+    </span>
+</div>
+
+</body>
+</html>
